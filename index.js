@@ -3,6 +3,8 @@ const express = require("express");
 const cors = require('cors');
 dbConnect();
 
+
+const port = 8000
 const app = express();
 const corsOptions = {
   origin: "*"
